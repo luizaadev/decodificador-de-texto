@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 400;
+    line-height: 150%;
+    transition: 0.5s;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+header {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    color: darkblue;
+}
+
+.titulo:hover,
+.logo:hover {
+    opacity: 0;
+    transition: width 0.5s;
+}
+
+.titulo {
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+#criptografia {
+    margin: 0 90px;
+}
+
+.inputText {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #E5E5E5;
+    border-radius: 40px;
+    padding: 30px;
+    color: darkblue;
+    font-size: 25px;
+}
+
+main .aviso {
+    font-size: 15px;
+    justify-content: left;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    width: 200px;
+    height: 50px;
+    font-weight: 500px;
+    background-color: white;
+    color: darkblue;
+    margin-right: 30px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+
+.encriptar:hover {
+    transform: scale(1.1);
+    background-color: darkblue;
+    color: white;
+}
+
+.desencriptar {
+    width: 200px;
+    height: 50px;
+    font-weight: 500px;
+    background-color: white;
+    color: darkblue;
+    margin-right: 30px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+
+.desencriptar:hover {
+    transform: scale(1.1);
+    background-color: darkblue;
+    color: white;
+}
+
+#outputText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    background-color: #f0f8ff;
+    background-image: url(./imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-size: 15px;
+    color: purple;
+    padding: 30px;
+}
+
+#copiar {
+    width: 200px;
+    height: 50px;
+    font-weight: 500px;
+    background-color: white;
+    color: darkblue;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+
+#copiar:hover {
+    transform: scale(1.1);
+    background-color: darkblue;
+    color: white;
+}
+
+.aviso,
+footer {
+    display: flex;
+    color: gray;
+    font-size: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    margin-top: 10px;
+}
